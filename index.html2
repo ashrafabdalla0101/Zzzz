@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ashraf Abdalla | Academic Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+body{
+background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+color:white;
+scroll-behavior:smooth;
+}
+section{
+padding:90px 10%;
+opacity:0;
+transform:translateY(40px);
+transition:1s;
+}
+section.active{
+opacity:1;
+transform:translateY(0);
+}
+header{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+header img{
+width:200px;
+height:200px;
+border-radius:50%;
+border:5px solid #00f2fe;
+object-fit:cover;
+margin-bottom:25px;
+box-shadow:0 0 40px rgba(0,242,254,0.7);
+}
+h1{font-size:3.2rem;}
+h2{
+margin-bottom:40px;
+font-size:2.2rem;
+border-bottom:2px solid #00f2fe;
+display:inline-block;
+padding-bottom:10px;
+}
+.card{
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(14px);
+padding:35px;
+border-radius:20px;
+margin-bottom:30px;
+transition:0.4s;
+}
+.card:hover{
+transform:translateY(-10px);
+background:rgba(255,255,255,0.15);
+}
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+.skill-bar{
+background:#1c1c1c;
+height:18px;
+border-radius:10px;
+overflow:hidden;
+margin-top:6px;
+}
+.skill-fill{
+height:100%;
+background:linear-gradient(90deg,#00f2fe,#4facfe);
+border-radius:10px;
+}
+.timeline{
+border-left:3px solid #00f2fe;
+padding-left:20px;
+}
+.timeline-item{
+margin-bottom:25px;
+}
+.button{
+display:inline-block;
+padding:12px 28px;
+background:linear-gradient(90deg,#00f2fe,#4facfe);
+border-radius:30px;
+color:#000;
+font-weight:600;
+margin-top:20px;
+text-decoration:none;
+transition:.3s;
+}
+.button:hover{transform:scale(1.05);}
+.contact-buttons a{
+display:inline-block;
+margin:10px;
+padding:12px 28px;
+border-radius:50px;
+background:linear-gradient(90deg,#00f2fe,#ff2c6d);
+color:#fff;
+font-weight:600;
+text-decoration:none;
+transition:.3s;
+}
+.contact-buttons a:hover{transform:scale(1.05);}
+form input, form textarea{
+width:100%;padding:12px;margin:10px 0;border-radius:10px;border:none;outline:none;
+}
+form button{
+padding:12px 25px;background:#00f2fe;color:#000;font-weight:600;border:none;border-radius:30px;cursor:pointer;transition:.3s;
+}
+form button:hover{transform:scale(1.05);}
+footer{
+text-align:center;
+padding:40px;
+background:rgba(0,0,0,0.6);
+}
+</style>
+</head>
+<body>
+
+<header>
+<img src="IMG_20260219_141133.jpg" alt="Ashraf Abdalla">
+<h1>Ashraf Abdalla</h1>
+<p>Aspiring Nurse | Multilingual Communicator | Counselling Psychology Certificate Holder | HTML Coder</p>
+<a href="PASTE_CV_DOWNLOAD_LINK_HERE" class="button" download>Download CV</a>
+</header>
+
+<section>
+<h2>Mission Statement</h2>
+<div class="card">
+<p>My mission is to pursue a professional career in nursing and healthcare where I can integrate academic excellence, empathy, multilingual communication, and structured psychological understanding to improve patient wellbeing and community health outcomes.</p>
+</div>
+</section>
+
+<section>
+<h2>Career Vision</h2>
+<div class="card">
+<p>I envision becoming a highly competent and ethically grounded healthcare professional who contributes meaningfully to modern medical systems. Through continuous education, practical experience, and leadership development, I aim to serve diverse communities and advocate for accessible, compassionate healthcare.</p>
+</div>
+</section>
+
+<section>
+<h2>Academic Timeline</h2>
+<div class="card timeline">
+<div class="timeline-item"><strong>2014 – 2021:</strong> Kipketer Primary School, KCPE: 366/500 B+</div>
+<div class="timeline-item"><strong>2022 – 2025:</strong> Njoro Boys High School, KCSE: C+</div>
+<div class="timeline-item"><strong>July 2024:</strong> Counselling Psychology Certificate</div>
+</div>
+</section>
+
+<section>
+<h2>Leadership & Community</h2>
+<div class="card">
+<p>Leadership through mentoring peers, coordinating academic groups, and supporting school initiatives. Applied counselling knowledge to assist peers with academic and personal challenges. Committed to community engagement and continuous learning as foundations for future healthcare leadership.</p>
+</div>
+</section>
+
+<section>
+<h2>Core Strengths</h2>
+<div class="card">
+<p>• English & Swahili: Professional Fluency</p>
+<p>• French: Advanced Proficiency</p>
+<p>• Patient Counselling & Emotional Support</p>
+<p>• Healthcare Assistance Knowledge</p>
+<p>• Organization, Planning & Structured Thinking</p>
+<p>• HTML Coding & Web Development</p>
+</div>
+</section>
+
+<section>
+<h2>Referees</h2>
+<div class="grid">
+<div class="card">
+<h3>Elizabeth Wanyoike</h3>
+<p>School Counsellor, Njoro Boys High School</p>
+<p>Phone: 0754683495</p>
+</div>
+<div class="card">
+<h3>Jackob Haywood Ondiko</h3>
+<p>French Teacher & Mentor, Njoro Boys High School</p>
+<p>Phone: 0712062375</p>
+</div>
+<div class="card">
+<h3>Mogaka Stephen</h3>
+<p>Class Teacher & Mentor, Njoro Boys High School</p>
+<p>Phone: 0723229142</p>
+</div>
+</div>
+</section>
+
+<section>
+<h2>Contact Me</h2>
+<div class="contact-buttons">
+<a href="mailto:ashrafabdalla2o7@gmail.com">Email Me</a>
+<a href="https://wa.me/254785117163?text=Hi%20Ashraf%2C%20I%20would%20like%20to%20know%20more%20about%20your%20professional%20journey%20and%20services.%20Looking%20forward%20to%20hearing%20from%20you." target="_blank">WhatsApp</a>
+<a href="https://instagram.com/4_.5h.r4f" target="_blank">Instagram</a>
+</div>
+
+<div class="card">
+<h3>Know More About Me</h3>
+<p>Fill your details below and I will reach out to you automatically via Email or WhatsApp:</p>
+<form action="mailto:ashrafabdalla2o7@gmail.com" method="post" enctype="text/plain">
+<input type="text" name="Name" placeholder="Your Full Name" required>
+<input type="email" name="Email" placeholder="Your Email" required>
+<input type="tel" name="Phone" placeholder="Your Phone Number" required>
+<textarea name="Message" placeholder="Your Message" rows="4" required></textarea>
+<button type="submit">Submit</button>
+</form>
+</div>
+</section>
+
+<footer>
+© 2026 Ashraf Abdalla | Academic Portfolio
+</footer>
+
+<script>
+const sections=document.querySelectorAll("section");
+window.addEventListener("scroll",()=>{
+sections.forEach(sec=>{
+if(window.scrollY>sec.offsetTop-500){
+sec.classList.add("active");
+}
+});
+});
+</script>
+
+</body>
+</html>
+
